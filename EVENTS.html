@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Seaview Rest House at Boljoon Cebu</title>
+<meta name="description" content="Beachfront,Boljoon, Cebu,Guesthouse/Rest House,Free Wi-Fi,Pet friendly,Kitchen facilities,Ocean view, Air-conditioned, Private beach access,Holiday rental">
+<meta name="keywords" content="Seaside haven selling local products and hospitality services">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: linear-gradient(120deg, #0d1b2a, #1b263b, #415a77, #2b2d42);
+    background-size: 400% 400%;
+    animation: bgAnimate 18s ease infinite;
+}
+
+@keyframes bgAnimate {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+    text-shadow: 0 0 15px black;
+}
+
+nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around; /* distribute links evenly */
+    padding: 15px;
+    backdrop-filter: blur(4px);
+    flex-wrap: nowrap; /* prevent wrapping */
+}
+
+nav a {
+    color: #ffcccc;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 10px; /* reduced padding */
+    border-radius: 10px;
+    background: rgba(255,255,255,0.1);
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(255,255,255,0.3);
+    white-space: nowrap;
+}
+
+nav a:hover {
+    background: #ff3b3b;
+    color: white;
+    box-shadow: 0 0 20px red;
+    transform: translateY(-3px);
+}
+
+.event-box {
+    width: 85%;
+    margin: 40px auto;
+    background: rgba(255,255,255,0.12);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(255,255,255,0.4);
+    animation: fadeIn 2s ease;
+}
+
+.event-box h2 {
+    text-align: center;
+    font-size: 42px;
+    color: #00ffea;
+    text-shadow: 0 0 20px cyan;
+    margin-bottom: 20px;
+}
+
+.event-box p {
+    font-size: 24px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.discount-list {
+    font-size: 22px;
+    margin-left: 25px;
+    line-height: 1.7;
+}
+
+.visit-box {
+    margin-top: 30px;
+    font-size: 23px;
+    line-height: 1.7;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 26px;
+    padding-bottom: 30px;
+    color: yellow;
+    text-shadow: 0 0 10px black;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* 📱 MOBILE RESPONSIVE STYLES */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 32px;
+        margin-top: 25px;
+    }
+
+    nav {
+        justify-content: space-around; /* keep in one row evenly */
+    }
+
+    nav a {
+        font-size: 14px;   /* smaller font for mobile */
+        padding: 6px 8px;  /* smaller padding */
+    }
+
+    .event-box {
+        width: 95%;
+        padding: 20px;
+        margin: 25px auto;
+    }
+
+    .event-box h2 {
+        font-size: 28px;
+    }
+
+    .event-box p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .discount-list {
+        font-size: 17px;
+        margin-left: 15px;
+    }
+
+    .visit-box {
+        font-size: 18px;
+    }
+
+    .footer {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<h1>Seaview Rest House Events</h1>
+
+<nav>
+    <a href="index.html">HOME</a>
+    <a href="EVENTS.html">EVENTS</a>
+    <a href="CONTACT.html">CONTACT US</a>
+    <a href="SERVICES.html">SERVICES</a>
+</nav>
+
+<div class="event-box">
+
+    <h2>✨ GOOD NEWS! ✨</h2>
+
+    <p>
+        Get our <strong>Privilege Card</strong> for only 
+        <strong style="color:#00ffea;">₱599</strong> and enjoy total savings of
+        <strong style="color:#00ffea;">₱5,200</strong> on your 8 visits! 🎉<br>
+        Plus, enjoy <strong>5–10% discounts</strong> at our 5 partner companies!
+    </p>
+
+    <p style="font-size: 26px; color: yellow;">
+        Valid until <strong>March 4, 2030</strong>
+    </p>
+
+    <p><strong>💼 PARTNER COMPANY DISCOUNTS:</strong></p>
+
+    <ul class="discount-list">
+        <li>10% OFF – Paraz Native Lechon (Carcar)</li>
+        <li>5% OFF – MatMat Tour and Services</li>
+        <li>10% OFF – Apple Tree Suites (Fuente, Cebu)</li>
+        <li>10% OFF – Strawberry Residences (Mabolo, Cebu)</li>
+        <li>10% OFF – XENIA HORIZONS 101 Condo</li>
+        <li>10% OFF – XENIA A CITYSCAPE Condo</li>
+        <li>10% OFF – XENIA SUNVIDA Condo</li>
+    </ul>
+
+    <p class="visit-box"><strong>🎁 VISIT DISCOUNTS:</strong></p>
+
+    <div class="visit-box">
+        <p>1st Visit:<br>
+            • ₱1,000 OFF (Weekdays)<br>
+            • ₱600 OFF (Weekends)
+        </p>
+
+        <p>2nd Visit:<br>
+            • ₱800 OFF (Weekdays)<br>
+            • ₱500 OFF (Weekends)
+        </p>
+
+        <p>3rd Visit:<br>
+            • ₱700 OFF (Weekdays)<br>
+            • ₱500 OFF (Weekends)
+        </p>
+
+        <p>4th Visit:<br>
+            • ₱600 OFF (Weekdays)<br>
+            • ₱500 OFF (Weekends)
+        </p>
+
+        <p><strong>🎉 Up to 8 slots – Total of 8 discounted visits!</strong></p>
+    </div>
+
+    <p class="footer">
+        📞 For inquiries, call or text our exclusive distributor:<br>
+        <strong>Breakthrough Marketing</strong>
+    </p>
+
+</div>
+
+</body>
+</html>

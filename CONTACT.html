@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Seaview Rest House at Boljoon Cebu</title>
+    <meta name= "description" content= "Beachfront,Boljoon, Cebu,Guesthouse/Rest House,Free Wi-Fi,Pet friendly,Kitchen facilities,Ocean view, Air-conditioned, Private beach access,Holiday rental">
+    <meta name="keyword" content = "Seaside haven selling local products and hospitality services">
+</HEAD>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* Body & Background */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: linear-gradient(135deg, #00c6ff, #0072ff, #00ffd5, #00a3ff);
+    background-size: 400% 400%;
+    animation: gradientBG 20s ease infinite;
+    overflow-x: hidden;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Full-width Glowing Top Strip */
+.top-strip {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    text-shadow: 0 0 8px #00ffd5, 0 0 15px #0072ff, 0 0 25px #00c6ff;
+    animation: stripGlow 2.5s infinite alternate;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+@keyframes stripGlow {
+    from { text-shadow: 0 0 8px #00ffd5; }
+    to { text-shadow: 0 0 25px #00c6ff, 0 0 40px #0072ff; }
+}
+
+/* Full-width Navigation Bar */
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+    padding: 12px 0;
+    margin-top: 60px; /* push below top strip */
+    width: 100%;
+    background: rgba(0,0,0,0.35);
+    backdrop-filter: blur(6px);
+    overflow-x: auto;
+    box-sizing: border-box;
+    position: fixed;
+    top: 55px;
+    left: 0;
+    z-index: 998;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 0 6px rgba(255,255,255,0.4);
+    transition: 0.3s;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+nav a:hover {
+    background: #00ffd5;
+    color: #001f3f;
+    box-shadow: 0 0 15px #00ffd5, 0 0 25px #0072ff;
+    transform: translateY(-2px);
+}
+
+/* Page Header */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 130px; /* space below fixed nav */
+    text-shadow: 0 0 8px #00ffe1, 0 0 15px #00ffe1, 0 0 25px #00ffe1;
+    animation: glowPulse 2s infinite alternate;
+}
+
+@keyframes glowPulse {
+    0% { text-shadow: 0 0 8px #00ffe1; }
+    50% { text-shadow: 0 0 25px #00ffd5, 0 0 40px #0072ff; }
+    100% { text-shadow: 0 0 8px #00ffe1; }
+}
+
+/* Contact Box */
+.contact-box {
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    background: rgba(0,0,0,0.4);
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(255,255,255,0.5);
+    animation: fadeIn 2s ease;
+}
+
+.contact-box h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #00ffd5;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #00ffd5, 0 0 20px #0072ff;
+}
+
+.contact-info {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0 0 3px #000000;
+}
+
+.contact-info span {
+    color: #ffea00;
+    font-weight: bold;
+}
+
+.contact-info a {
+    color: #ffea00;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #00ffd5;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 480px) {
+    h1 { font-size: 28px; margin-top: 110px; }
+    .top-strip { font-size: 18px; padding: 10px 0; }
+    nav { gap: 6px; padding: 8px; margin-top: 50px; }
+    nav a { font-size: 12px; padding: 5px 10px; }
+    .contact-box h2 { font-size: 22px; }
+    .contact-info { font-size: 16px; }
+}
+</style>
+</head>
+<body>
+
+<!-- Full-width Glowing Top Strip -->
+<div class="top-strip">📞 Reach Out to Us for Reservations & Inquiries!</div>
+
+<!-- Full-width Navigation -->
+<nav>
+    <a href="index.html">HOME</a>
+    <a href="EVENTS.html">EVENTS</a>
+    <a href="CONTACT.html">CONTACT US</a>
+    <a href="SERVICES.html">SERVICES</a>
+</nav>
+
+<!-- Page Header -->
+<h1>Contact Us</h1>
+
+<!-- Contact Box -->
+<div class="contact-box">
+    <h2>Available for Inquiries & Reservations</h2>
+    <div class="contact-info">
+        <p>Facebook Page: <span>SeaView Rest House</span></p>
+        <p>Norberto Kilag: <a href="tel:+639291750877">(0929) 175 0877</a></p>
+        <p>Jay Ar Clanza: <a href="tel:+639156724393">(0915) 672 4393</a></p>
+    </div>
+</div>
+
+</body>
+</html>
